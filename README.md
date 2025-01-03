@@ -1,9 +1,9 @@
 # Predicting-Customer-Outcomes-from-Bank-Direct-Marketing-Campaign
-I developed a predictive model that targets 80% of potential customers by leveraging the top 46.4% of predictions. The classification goal is to predict if the client will subscribe a term deposit. 
+I developed a predictive model that targets 80% of potential customers by leveraging the top 46.4% of predictions. The classification goal is to predict if the client will subscribe to a term deposit. 
 ![Marketing Lift.png](https://raw.githubusercontent.com/satya-munu/Predicting-Customer-Outcomes-from-Bank-Direct-Marketing-Campaign/refs/heads/main/Marketing%20Lift.png)
 
 ## Data Overview
-The data is from a Portuguese retail bank (2008-2013). To account for costs and the severity of false negatives over false positives, all models are trained with weights to place more emphasis avoid missing potential customers. Additionally, duration of call, which is a feature that is only known after an agent calls a customer, is dropped from the dataset to avoid data leakage. 
+The data is from a Portuguese retail bank (2008-2013). To account for costs and the severity of false negatives over false positives, all models are trained with weights to place more emphasis on not missing potential customers. Additionally, the duration of the call, which is a feature that is only known after an agent calls a customer, is dropped from the dataset to avoid data leakage. 
 
 
 ## Model Comparison
